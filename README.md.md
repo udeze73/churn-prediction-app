@@ -154,7 +154,7 @@ The final application includes:
 
 ```bash
 # 1. Clone this repo
-git clone [text](https://github.com/udeze73/churn-prediction-app)>.git
+git clone (https://github.com/udeze73/churn-prediction-app)>.git
 cd <churn-prediction-app>
 
 # 2. Install dependencies
