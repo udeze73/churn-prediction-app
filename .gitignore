@@ -1,0 +1,37 @@
+# ============================================================
+# .gitignore — tells Git which files/folders to NEVER track
+# ============================================================
+# WHY THIS MATTERS: without this file, you risk accidentally
+# committing huge cache folders, OS junk files, or sensitive
+# local config — bloating your repo and possibly leaking data.
+
+# Python cache & bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoint files (auto-saved by Jupyter, not needed in git)
+.ipynb_checkpoints/
+
+# Virtual environments (if you ever create one in this folder)
+venv/
+env/
+.venv/
+
+# OS-specific junk files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Streamlit's local cache (safe to regenerate, no need to track)
+.streamlit/secrets.toml   # NEVER commit secrets/API keys if you add any later
+
+# Editor/IDE folders
+.vscode/
+.idea/
+
+# Raw dataset — uncomment the line below if your CSV contains
+# data you don't have rights to publish publicly.
+# Telco churn dataset (IBM sample data) is freely redistributable,
+# so it's safe to commit, but keeping this here as a reminder
+# pattern for future projects with private data:
+# *.csv
