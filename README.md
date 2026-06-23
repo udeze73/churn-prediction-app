@@ -7,7 +7,7 @@ Customer churn is one of the most critical business challenges faced by subscrip
 This project develops an end-to-end machine learning solution for customer churn prediction using stacked ensemble learning, class imbalance handling, threshold optimization, SHAP explainability, and Streamlit deployment.
 
 ## 🚀 Live App
-> https://churn_prediction_app.streamlit.app
+> https://churnpredictionapp-cju.streamlit.app/
 
 ## 📂 Project Structure
 
@@ -166,7 +166,8 @@ which auto-builds from this repo's `requirements.txt` and runs
 
 ## 👨‍💻 Author
 
-Joshua Udeze
+- Joshua Udeze
+- UDEZEJOSHUA@GMAIL.COM
 
 ## 📦 Dataset
 
